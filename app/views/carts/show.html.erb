@@ -4,6 +4,11 @@
     <h1>My Cart</h1>
   </header>
 
+  <% if enhanced_cart.count == 0 %>
+  <h2 class="text-center align-middle" style="color:red">Cart is currently empty.</h2>
+  <div class="text-center"><a href="/"><u>Find items to add to cart</u></a></div>
+  <% else %>
+
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -48,5 +53,5 @@
       <% end %>
     </div>
   </div>
-
+  <% end %>
 </section>
