@@ -22,6 +22,10 @@
         <%= render 'categories', category: category, product: @product %>
         <% end %>
         <tr>
+        <tr>
+          <td>Number of Categories</td>
+          <td><%= @categories.count %></td>
+        </tr>
         <td><%= link_to 'Total Products', [:admin, :products] %></td>
         <td><%= @products.count %></td>
         </tr>
