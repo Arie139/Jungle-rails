@@ -10,11 +10,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ### Registration
 
-![screenshot of registration](https://github.com/Arie139/Jungle-rails/blob/master/docs/registration.png?raw=true)
+![screenshot of registration](https://github.com/Arie139/Jungle-rails/blob/master/docs/Registration.png?raw=true)
 
 ### My Cart
 
-![screenshot of homepage](https://github.com/Arie139/Jungle-rails/blob/master/docs/cart.png?raw=true)
+![screenshot of cart](https://github.com/Arie139/Jungle-rails/blob/master/docs/cart.png?raw=true)
 
 
 ## Additional Steps for Apple M1 Machines
